@@ -166,24 +166,24 @@
         <table>
             <tr>
                 <td>
-                    <img src="/obrazki/armagedon.jpg" height="200">
+                    <img src="/obrazki/armagedon.jpg" height="200" alt="Armagedon">
                 </td>
                 <td>
-                    <img src="/obrazki/wirus.jpg" height="200">
+                    <img src="/obrazki/wirus.jpg" height="200" alt="Wirus">
                 </td>
                 <td>
-                    <img src="/obrazki/głód.jpg" height="200">
+                    <img src="/obrazki/głód.jpg" height="200" alt ="Głód">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img src="/obrazki//rytuał.jpg" height="200">
+                    <img src="/obrazki//rytuał.jpg" height="200" alt="Rytuał">
                 </td>
                 <td>
-                    <img src="/obrazki/susza.jpg" height="200">
+                    <img src="/obrazki/susza.jpg" height="200" alt="Susza">
                 </td>
                 <td>
-                    <img src="/obrazki/swist-umarlych.jpg" height="200"> </td>
+                    <img src="/obrazki/swist-umarlych.jpg" height="200" alt="Świst uwarłych"> </td>
             </tr>
         </table>
 
@@ -199,7 +199,7 @@
     <div id="audiobook" style="text-align: center;">
         <h2 style="text-align: left;">Audiobook - fragment książki "Kondor"</h2>
         <audio controls>
-            <source src="/media/Kondor.mp3">
+            <source src="/media/Kondor.mp3" >
         </audio>
     </div>
     <br>
