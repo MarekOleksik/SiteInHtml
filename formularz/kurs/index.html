@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <meta name="decription" content="Formularz">
+    <meta name="viewport" content="width=device=width,initial-scale=1.0">
+</head>
+
+<body>
+    <form action="" method="POST" autocomplete="on">
+        <label>Nazwisko
+            <input name="surname" value="Oleksik" placeholder="Wpisz swoje nazwisko" type="text" required maxlength="20"
+                autofocus pattern=".{2,}" autocomplete="off"></label>
+        <br>
+        <textarea rows="5" cols="50">
+                coś
+            </textarea>
+        <br>
+        <br>
+        Wybierz swojego ulubionego wokalistę:<br>
+        <label>
+            <input type="radio" name="favourite-singer" value="piotr-cugowski" required autofocus>Piotr Cugowski<br>
+        </label>
+        <label>
+            <input type="radio" name="favourite-singer" value="shawn-mendes">Shawn Mendes<br>
+        </label>
+        <label>
+            <input type="radio" name="favourite-singer" value="justin-timberlake" disabled>Justin Timberlake<br>
+        </label>
+        <br>
+        Wybierz swojego ulubionego wokalistę:<br>
+        <label>
+            <input type="checkbox" name="favourite-singer" value="piotr-cugowski" required autofocus>Piotr Cugowski<br>
+        </label>
+        <label>
+            <input type="checkbox" name="favourite-singer" value="shawn-mendes">Shawn Mendes<br>
+        </label>
+        <label>
+            <input type="checkbox" name="favourite-singer" value="justin-timberlake" disabled>Justin Timberlake<br>
+        </label>
+        <br>
+        <label>
+            Ulubiona wokalistka
+        
+        <select name="favourite-singer" required autofocus multiple>
+            <option></option>
+            <option value="karwan">Ania Karwan</option>
+            <option value="lipa">Dua Lipa</option>
+            <option value="shakira">Shakira</option>
+        </select>
+    </label>
+        <br>
+        <br>
+        <input type="password"><br>
+        <input type="color" name="color"><br>
+        <input type="date" name="date" min="2022-01-12" max="2022-01-22"><br>
+       <input type="time" name="time" max="15:12"><br>
+       <input type="email" name="email"><br>
+       <input type="file"><br>
+       <input type="hidden" name="secret" value="top-secret">
+       <br>
+       <input type="number" step="0.1" min="200">
+        <br>
+
+        <br>
+        <button>Wyślij formularz</button>
+        <button
+        type="submit">
+Wyślij
+        </button>
+        <button 
+        type="reset">
+    Reset</button>
+
+
+    </form>
+</body>
+
+</html>
