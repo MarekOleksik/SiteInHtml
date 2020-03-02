@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularz</title>
+        <meta name="decription" content="Formularz">
+        <meta name="viewport" content="width=device=width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+  <body>
+ <div class="container">
+<header class="header">
+  <h1 id="title" class="text-center">Survey Form
+  </h1>
+  <p id="description">Please fill the form.
+  </p>
+</header>
+  
+  <form id="survey-form">
+    <div class = "form-group">
+    <label id="name-label" for="name">Name</label>
+    <input type="text" id ="name" name="name" placeholder="Enter your name" required>
+    </div>
+    <div class = "form-group">
+    <label id="email-label" for="email">Email
+      </label>
+      <input type="email" id="email" name="email" placeholder="Enter your e-mail" required>
+    </div>
+    <div class = "form-group">
+      <label id="number-label" for="number">Age(optional)</label>
+      <input type="number" id="number" min="10" max="100" name="age" placeholder="Age">
+      
+    </div>
+    <div class = "form-group">
+      <p>Choose an option below:</p>
+      <select id="dropdown" name="role" required>
+        <option disabled selected value>Choose option below</option>
+        <option value="student">Student</option>
+        <option value="worker">Worker</option>
+        <option value="unemployed">Unemployed</option>
+        <option value="other">Other</option>
+      </select>
+      
+    </div>
+    <div class = "form-group">
+        <p>When could you start work?</p>
+<label>
+  <input name="user-recommend" value="week" type="radio" class="input-radio" checked />One week
+      </label>
+<label> 
+  <input name="user-recommend" value="month" type="radio" class="input-radio" />One moth
+      </label>
+<label>
+  <input name="user-recommend" value="three-months" type="radio" class="input-radio" />Three months
+      </label>
+    </div>
+    <div class = "form-group">
+    <p>
+      What is your favorite type of employment ?
+    </p>
+<select id="most-like" name="mostLike" class="form-control" required>
+<option disabled selected value>Select an option</option>
+<option value="full-time">Full time</option>
+<option value="b2b">B2B</option>
+<option value="contract">Contract</option>
+</select> 
+    </div>
+      
+    <div class = "form-group">
+    <p>
+      What skills do you have?
+    <span class="clue">(Check all that apply)</span>
+    </p>
+<label>
+  <input name="prefer" value="java" type="checkbox" class="input-checkbox" />Java
+      </label>
+<label>
+  <input name="prefer" value="c-hash" type="checkbox" class="input-checkbox" />C#
+      </label>
+<label>
+  <input name="prefer" value="javascript" type="checkbox" class="input-checkbox" />Javascript
+      </label>
+<label>
+  <input name="prefer" value="css" type="checkbox" class="input-checkbox" />CSS
+      </label>
+<label>
+  <input name="prefer" value="spring" type="checkbox" class="input-checkbox" />Spring
+      </label>
+<label>
+  <input name="prefer" value="maven" type="checkbox" class="input-checkbox" />Maven
+      </label>
+<label>
+  <input name="prefer" value="github" type="checkbox" class="input-checkbox" />Github
+      </label>
+<label>
+  <input name="prefer" value="angular" type="checkbox" class="input-checkbox" />Angular
+      </label>
+<label>
+  <input name="prefer" value="thymeleaf" type="checkbox" class="input-checkbox" />Thymeleaf
+      </label>
+<label>
+  <input name="prefer" value="sql" type="checkbox" class="input-checkbox" />SQL
+      </label>  
+    </div>
+      
+    <div class = "form-group">
+    <p>Additional description.</p>
+<textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+    </div>
+      
+    <div class = "form-group">
+      <button type="submit" id="submit" class="submit-button">
+Submit
+</button>
+      
+    </div>  
+  </form>
+</div>
+</body>
+</html>
+
