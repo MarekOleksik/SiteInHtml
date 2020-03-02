@@ -1,0 +1,33 @@
+
+section {
+    height: 200px;
+    border: 20px red dotted;
+    padding:20px;
+    overflow: auto;
+    background-color: #ccc;
+    background-image: url("/obrazki/krajobraz.jpg"), url("/obrazki/krajobraz2.jpg");
+    background-size: 20% 50%,contain;
+    background-repeat: no-repeat;
+    background-position: center top, center;
+    background-attachment: fixed, scroll;
+    background-origin: border-box;
+    background-clip: content-box;
+}
+
+div {
+    height: 200px;
+    width: 300px;
+    border-width: 20px 10px;
+    border-color: black;
+    border-style: dotted groove double solid;
+    border-radius: 20px 50px;
+    box-shadow: inset 10px 5px 5px 20px #ccc, -5px 0 10px red;
+    outline: 10px blue dotted;
+}
+p {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px 10px 5px 5px;
+    margin: 50px auto;
+}

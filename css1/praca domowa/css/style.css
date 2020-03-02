@@ -1,0 +1,42 @@
+p {
+    width: auto;
+    height: 30px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+#lorem {
+    height: auto;
+    border: 5px solid rgb(204, 0, 0);
+    padding:5px;
+    background-color: #000;
+    background-position: center;
+    background-origin: border-box;
+    background-clip: content-box;
+}
+
+#krajobraz {
+    margin: 50px auto;
+    padding: 20px;
+    height: 170px;
+    width: 300px;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    background-image: url("https://cdn.pixabay.com/photo/2018/10/08/07/53/landscape-3732149_960_720.jpg");
+    background-size: 100%, cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: content-box;
+}
+#beagle {
+    margin: 50px auto;
+    height: 300px;
+    width: 300px;
+    border: 10px solid #964b00;
+    border-radius: 50%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/Beagle_001.jpg");
+    background-size: 30%, contain;
+    background-repeat: space space;
+}
