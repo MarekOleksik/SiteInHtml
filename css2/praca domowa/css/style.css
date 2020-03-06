@@ -1,0 +1,89 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+#bold {
+    font-weight: 700;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#nochecked {
+    user-select: none;
+}
+
+#zero_div {
+    height: 150px;
+}
+
+#first_div {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 1px -1px 10px 1px grey;
+    background-color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    right: 120px;
+    top: 20px;
+    z-index: 1;
+}
+
+#second_div {
+    line-height: 1.5;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 1px -1px 10px 1px grey;
+    background-color: white;
+    width:40%;
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    text-indent: 20%;
+    z-index: 2;
+
+}
+
+#third_div {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    resize: both;
+    border: 3px solid black;
+    text-shadow: 1px 1px 5px blue;
+    background-color: rgb(119, 119, 255);
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    right: -140px;
+    top: -200px;
+    z-index: 3;
+}
+
+#fourth_div {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 100px;
+    top: -190px;
+    z-index: 3;
+
+}
+#comment {
+    color: grey;
+}
