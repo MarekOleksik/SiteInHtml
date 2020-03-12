@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+/*
+section {
+    display: flex;
+    background: #eee;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+*/
+
+div {
+    padding: 20px;
+    background: #ddd;
+    margin: 10px;
+    flex: none;
+    /*flex-grow: 1;
+    flex-basis: 50%;*/
+}
+
+.last {
+    flex-shrink: 1;
+}
+
+div:first-child {
+align-self: flex-end;
+}
+
+div:last-child {
+    order: 0;
+}
+
+h2 {
+    column-span: all;
+    text-align: center;
+}
+
+section {
+    column-width: 150px;
+    column-count: 4;
+    column-gap: 20px;
+    column-rule: 10px #ccc solid;
+}
+p {
+    margin-top: 0;
+}
