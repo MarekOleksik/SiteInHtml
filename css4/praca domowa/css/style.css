@@ -8,6 +8,7 @@
     --color-first-circle: #83beb1;
     --color-second-circle: #af6fa7;
     --box-shadow: 0 0 10px #ccc;
+    --background-color: white;
 }
 
 body {
@@ -38,12 +39,14 @@ body {
     width: 10vw;
     margin: 30px auto;
     box-shadow: var(--box-shadow);
+    background-color: var(--background-color);
 }
 
 .square:hover {
     animation-name: rotate_square, scale_square;
     animation-duration: 8s, 4s;
     animation-delay: 0s, 8s;
+
 }
 
 @keyframes rotate_square {
@@ -77,6 +80,8 @@ body {
     margin: 30px auto;
     box-shadow: var(--box-shadow);
     padding: 20px;
+    background-color: var(--background-color);
+
 }
 
 .circle__element {
