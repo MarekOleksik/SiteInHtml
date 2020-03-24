@@ -35,8 +35,8 @@ body {
 }
 
 .square {
-    height: 10vw;
-    width: 10vw;
+    height: 150px;
+    width: 150px;
     margin: 30px auto;
     box-shadow: var(--box-shadow);
     background-color: var(--background-color);
@@ -75,7 +75,7 @@ body {
 }
 
 .circle {
-    height: 10hw;
+    height: 100px;
     width: 50vw;
     margin: 30px auto;
     box-shadow: var(--box-shadow);
@@ -130,6 +130,7 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     column-width: 250px;
+
 }
 
 .gallery__item {
@@ -137,12 +138,13 @@ body {
     width: 400px;
     height: 300px;
     object-fit: cover;
+    transition-duration: 1s;
 }
 
 
 .gallery__item:hover {
     transform: scale(1.1);
-    transition: 1s;
+
 }
 
 @media (min-width: 768px) {
