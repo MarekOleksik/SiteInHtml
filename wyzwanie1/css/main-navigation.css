@@ -58,7 +58,7 @@
         left: 0;
         bottom: 0;
         right: 0;
-        background: black;
+        background: white;
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -103,7 +103,7 @@
 
 .main-navigation__link {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 20px;
 }
@@ -124,6 +124,7 @@
         background: none;
         border: none;
         padding: 0;
+
     }
 }
 
