@@ -1,24 +1,22 @@
 .main-banner {
     background: url(/images/background.jpg);
     display: flex;
-    height: 750px;
+    height: 800px;
     background-position: center center;
     background-size: cover;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .main-baner__header {
-
-    width: 900px;
-    margin: 0 auto;
+    width: 50%;
     align-items: center;
     justify-content: center;
     
 }
 
 .main-baner__header-h3 {
-margin: 50px auto;
    font-family: 'Source Sans Pro', sans-serif; 
    color: white;
    font-size: 60px;
@@ -29,20 +27,19 @@ margin: 50px auto;
 
 .main-baner__header-paragraph {
     margin: 80px auto;
-    width: 600px;
+    width: 60%;
     font-size: 18px;
     color: white;
 }
 
 .main-banner__button {
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .main-banner__button-item {  
-    border: 2px solid white;
+    border: 2px solid #fb414e;
     padding: 20px 30px;
     margin: 0 20px;
     text-decoration: none;
@@ -50,10 +47,10 @@ margin: 50px auto;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.3);
     transition: 0.3s;
 }
 
 .main-banner__button-item:hover {
-    background: red;
+    background: #fb414e;
 }

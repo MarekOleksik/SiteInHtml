@@ -6,6 +6,19 @@
     align-items: center;
     margin: 0px auto;
 }
+
+@media (max-width: 1199px) {
+    .icon-boxes {
+    grid-template-columns: repeat(2, 400px);
+    }
+}
+
+@media(max-width: 991px) {
+    .icon-boxes {
+        grid-template-columns: repeat(1, 400px);
+    }
+}
+
 .icon-boxes__innerContent{
     margin: 30px;
     text-align: center;

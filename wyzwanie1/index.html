@@ -17,6 +17,8 @@
     <link href="/css/services.css" rel="stylesheet">
     <link href="/css/icon-boxes.css" rel="stylesheet">
     <link href="/css/gallery.css" rel="stylesheet">
+    <link href="/css/contact.css" rel="stylesheet">
+    <link href="/css/footer.css" rel="stylesheet">
     </head>
 
     <body>
@@ -192,18 +194,83 @@
         </section>
         
         <section class="gallery" id="works">
-            <div class="gallery-content">
-                <img src="/gallery/1.jpg" alt="" class="gallery-content__item">
-                <img src="/gallery/2.jpg" alt="" class="gallery-content__item">
-                <img src="/gallery/3.jpg" alt="" class="gallery-content__item">
-                <img src="/gallery/4.jpg" alt="" class="gallery-content__item">
-                <img src="/gallery/5.jpg" alt="" class="gallery-content__item">
-                <img src="/gallery/6.jpg" alt="" class="gallery-content__item">
-                <img src="/gallery/7.jpg" alt="" class="gallery-content__item">
-                <img src="/gallery/8.jpg" alt="" class="gallery-content__item">
+                <ul class="gallery-content">
+                    <li class="gallery-content__item"><img src="/gallery/1.jpg" alt="" class="gallery-content__image"></li>
+                    <li class="gallery-content__item"><img src="/gallery/2.jpg" alt="" class="gallery-content__image"></li>
+                    <li class="gallery-content__item"><img src="/gallery/3.jpg" alt="" class="gallery-content__image"></li>
+                    <li class="gallery-content__item"><img src="/gallery/4.jpg" alt="" class="gallery-content__image"></li>
+                    <li class="gallery-content__item"><img src="/gallery/5.jpg" alt="" class="gallery-content__image"></li>
+                    <li class="gallery-content__item"><img src="/gallery/6.jpg" alt="" class="gallery-content__image"></li>
+                    <li class="gallery-content__item"><img src="/gallery/7.jpg" alt="" class="gallery-content__image"></li>
+                    <li class="gallery-content__item"><img src="/gallery/8.jpg" alt="" class="gallery-content__image"></li>
+                </ul>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <div class="contact-content__text">
+                    <h3 class="contact-content__text-header">
+                        Want to have a professional project? Let’s talk about it.
+                    </h3>
+                    <p class="contact-content__text-paragraph">
+                        Est ultricies integer quis auctor elit sed vulputate mi. 
+                        Lectus nulla at volutpat diam ut. Justo donec enim diam vulputate ut pharetra sit amet aliquam. 
+                        Parturient montes nascetur ridiculus mus mauris.
+                    </p>
+                    <p class="contact-content__text-paragraph">
+                        Vel fringilla est ullamcorper eget nulla. 
+                        Urna duis convallis convallis tellus id interdum velit laoreet id. 
+                        Donec adipiscing tristique risus nec feugiat. Egestas dui id ornare arcu odio ut sem nulla.
+                    </p>
+                </div>
+
+                <form action="#" method="POST" class="contact-content__form">
+                    <div class="contact-content__field">
+                        <input type="text" id="your_name" class="contact-content__input">
+                        <label for="your_name" class="contact-content__label">
+                            Your name*
+                        </label>
+                    </div>
+                    <div class="contact-content__field-flex">
+                    <div class="contact-content__field">
+                        <input type="text" id="company_name" class="contact-content__input">
+                        <label for="company_name" class="contact-content__label">
+                            Company name*
+                        </label>
+                    </div>
+                    <div class="contact-content__field">
+                        <input type="text" id="email" class="contact-content__input">
+                        <label for="email" class="contact-content__label">
+                            Email address*
+                        </label>
+                    </div>
+                    </div>
+                    <div class="contact-content__field">
+                        <label class="contact-content__label">
+                            Select service*
+                        </label>
+                        <select name="select-service" class="contact-content__select">
+                            <option value="webdesign">Web Design</option>
+                            <option value="branding">Branding</option>
+                            <option value="seo">SEO</option>
+                            <option value="development">Development</option>
+                        </select>
+                    </div>
+                    <div class="contact-content__field">
+                        <textarea id="textarea" class="contact-content__textarea" cols="40" rows="10"></textarea>
+                        <label for="textarea" class="contact-content__label">
+                            Describe your project*
+                        </label>
+                    </div>
+                    <div class="contact-content__submit">
+                        <button class="contact-content__button" type="submit">Submit</button>
+                    </div>
+                </form>
             </div>
         </section>
-         
 
+        <footer class="footer">
+            <p>Marek Oleksik</p>
+        </footer>
     </body>
 </html>

@@ -1,11 +1,12 @@
 .main-navigation {
-    position: fixed;
-    top: 20px;
+    position: absolute;
+    top: 40px;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0);
     padding: 20px;
     z-index: 1;
+
 }
 
 .main-navigation__logo-image {
@@ -45,7 +46,7 @@
 .main-navigation__menu {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     list-style: none;
     transition: 0.5s;
     transition-property: opacity, transform;
@@ -75,7 +76,7 @@
 }
 
 .main-navigation__menu-item {
-    margin-left: 40px;
+    margin-left: 50px;
     padding: 5px 0;
 }
 
@@ -103,7 +104,7 @@
 
 .main-navigation__link {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
