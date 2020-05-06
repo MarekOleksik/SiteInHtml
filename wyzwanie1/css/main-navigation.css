@@ -16,7 +16,7 @@
 
 @media(max-width: 991px) {
     .main-navigation__logo-image {
-        width: 40px;
+        width: 80px;
         margin-right: 10px;
     }
 }
@@ -61,10 +61,18 @@
         right: 0;
         background: white;
         flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        justify-content: start;
+        text-align: left;
         opacity: 0;
         pointer-events: none;
+    }
+}
+
+@media(max-width: 991px) {
+    .main-navigation__menu-back {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -80,15 +88,14 @@
     padding: 5px 0;
 }
 
-@media (max-width: 1199px) {
-    .main-navigation__menu-item {
-        margin-left: 20px;
-    }
-}
-
 @media (max-width: 991px) {
     .main-navigation__menu-item {
-        margin-left: 0px;
+        display: flex;
+        margin: 0;
+        padding-left: 50px;
+        border-bottom: 1px solid rgba(0,0,0,.15);
+        height: 60px;
+        align-items: center;
     }
 }
 
@@ -99,6 +106,7 @@
 @media (max-width: 991px) {
     .main-navigation__menu-item:hover {
         border-bottom: unset;
+        background-color: lightgray;
     }
 }
 
@@ -111,11 +119,38 @@
 
 @media (max-width: 991px) {
     .main-navigation__link {
-        font-size: 22px;
+        font-size: 18px;
+        color: rgba(0,0,0,.85);
+        text-align: left;
     }
 }
 
-.main-navigation__mobile-button {
+@media (max-width: 991px) {
+    .main-navigation__link-back {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgba(0,0,0,.85);
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-navigation__back_image {
+            left: 10px;
+            right: auto;
+            border-left: none;
+            border-right: 1px solid rgba(0,0,0,.15);
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+            color: rgba(0,0,0,.45);
+    }
+}
+
+.main-navigation__mobile-button,
+.main-navigation__menu-back {
     display: none;
 }
 
@@ -125,7 +160,6 @@
         background: none;
         border: none;
         padding: 0;
-
     }
 }
 
@@ -133,5 +167,22 @@
     .main-navigation__mobile-button-image {
         display: block;
         width: 25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-navigation__menu-back {
+        display: flex;
+        margin: 0;
+        border-bottom: 1px solid rgba(0,0,0,.15);
+        height: 60px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-navigation__menu-back:hover {
+        border-bottom: unset;
+        background-color: lightgray;
     }
 }

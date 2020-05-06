@@ -1,7 +1,7 @@
 .icon-boxes {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
-    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(3, 20%);
+    grid-template-rows: repeat(2, 300px);
     justify-content: center;
     align-items: center;
     margin: 0px auto;
@@ -9,30 +9,44 @@
 
 @media (max-width: 1199px) {
     .icon-boxes {
-    grid-template-columns: repeat(2, 400px);
+    grid-template-columns: repeat(2, 20%);
+    grid-template-rows: repeat(3, 400px);
     }
 }
 
 @media(max-width: 991px) {
     .icon-boxes {
-        grid-template-columns: repeat(1, 400px);
+        grid-template-columns: repeat(1, 70%);
+        grid-template-rows: repeat(3, 250px);
     }
 }
 
-.icon-boxes__innerContent{
+.icon-boxes__innerContent { 
     margin: 30px;
     text-align: center;
 }
 
+@media(max-width: 991px) {
+    .icon-boxes__innerContent {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
 .icon-boxes__innerContent-icon {
     transition: color .2s cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    font-size: 60px;
 }
 
 .icon-boxes__innerContent-title {
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-size: 32px;
     font-weight: bold;
+}
+
+@media(max-width: 991px) {
+    .icon-boxes__innerContent-title {
+        font-size: 25px;;
+    }
 }
 
 .icon-boxes__innerContent-paragraph {

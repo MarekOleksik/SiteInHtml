@@ -32,7 +32,11 @@
     margin-left: 10px;
 }
 
-
+@media (max-width: 991px) {
+    .image-boxes__item {
+        margin-bottom: 70px;
+    }
+}
 
 .image-boxes__item-img {
     display: block;

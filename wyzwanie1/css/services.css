@@ -4,6 +4,12 @@
     width: 90%;
 }
 
+@media(max-width: 991px) {
+    .main-services {
+        margin: 0 auto;
+    }
+}
+
 .main-services__header {
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -23,6 +29,8 @@
     .main-services__inner {
         display: flex;
         font-size: 40px;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
 
@@ -39,4 +47,10 @@
     width: 40%;
     color: #838383;
     font-size: 16px;
+}
+
+@media(max-width: 991px) {
+    .main-services__headline {
+       width: 90%;
+    }
 }

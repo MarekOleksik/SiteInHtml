@@ -33,7 +33,7 @@
 
 @media (max-width: 1199px) {
     .contact-content__text {
-        text-align: left;
+        text-align: center;
         padding-right: 0px;
         width: 100%;
         }
