@@ -1,5 +1,5 @@
 .main-banner {
-    background: url(/images/background.jpg);
+    background: url(images/background.jpg);
     display: flex;
     height: 800px;
     background-position: center center;
